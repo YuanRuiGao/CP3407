@@ -19,7 +19,7 @@ The following is the list of items, which are required to be completed.
 It is recommended to complete this assignment in a group of 2-4 students.
 1. Student 1
 2. hao zhang
-3. Name 3
+3. Liu Chunhan
 4. Name 4
 
 
