@@ -17,10 +17,10 @@ The following is the list of items, which are required to be completed.
 ## Team
 
 It is recommended to complete this assignment in a group of 2-4 students.
-1. Student 1
-2. hao zhang
-3. Liu Chunhan
-4. Name 4
+1. Yuanuri Gao
+2. Hao Zhang
+3. Chunhan Liu
+4. ZhiXing Li
 
 
 # Project planning BEFORE iteration-1, (see chapters 1-3)
