@@ -18,7 +18,7 @@ The following is the list of items, which are required to be completed.
 
 It is recommended to complete this assignment in a group of 2-4 students.
 1. Yuanuri Gao
-2. Hao Zhang test
+2. Hao Zhang 
 3. Chunhan Liu
 4. ZhiXing Li
 
