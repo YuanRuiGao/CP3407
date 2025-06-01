@@ -1,14 +1,34 @@
-* [Financial Management]
-    Ana often finds that her account balance is far lower than expected at the end of the month. She tries to keep accounts, but the paper bills and scattered transaction records on her phone give her a headache. She needs an easy-to-use software to help her set a budget, reduce unnecessary expenses, and eventually save enough money.
+### Liu Chunhan: User Stories (Backlog)
 
-* [save times]
-    Bob is a busy office worker who has to deal with a lot of affairs every day. He tried to keep accounts manually, but he always forgot to categorize transactions and was worried about a pile of bills at the end of the month. He thought he needed a software that could automatically categorize transactions and generate reports in an instant.
+#### Iteration 1
 
-* [Financial goal setting]
-    Cynthia has always dreamed of opening her own bookstore, but she always gives up halfway through saving money. She needs a software that can set savings goals for her, track progress in real time, and help her achieve her savings goals.
+- [ ] **Book Cleaning Service** | Priority: High | Estimate: 5 days  
+  - *Description*: As a user, I want to book a cleaning service so that I can schedule cleaning easily.
 
-* [Reduce Errors]
-    David has been keeping accounts by hand in a notebook, but he always finds that the accounts don't match at the end of the month. He needs an accounting software that can automatically record transactions to help him accurately calculate financial expenditures.
+- [ ] **View Cleaner Profiles** | Priority: Medium | Estimate: 3 days  
+  - *Description*: As a user, I want to view profiles of cleaners so that I can choose the best one for my needs.
 
-* [Financial Health Score]
-    Ilson has always been worried about his poor financial situation. He has tried hard to save money, but the funds he has are still insufficient. He thinks he needs a software with a financial health score function. The software can analyze his income, expenditure and savings, and give a score and analysis report to help him understand his financial expenditure situation.
+- [ ] **Payment via Card/PayPal** | Priority: High | Estimate: 6 days  
+  - *Description*: As a user, I want to pay via credit card or PayPal so that I can complete payments securely.
+
+- [ ] **Cleaner Availability Management** | Priority: Medium | Estimate: 4 days  
+  - *Description*: As a cleaner, I want to manage my available time slots so that users can book me efficiently.
+
+- [ ] **Receive Booking Notifications** | Priority: Low | Estimate: 2 days  
+  - *Description*: As a user, I want to receive notifications about upcoming bookings so that I don’t miss appointments.
+
+---
+
+#### Iteration 2
+
+- [ ] **In-App Chat with Cleaner** | Priority: Medium | Estimate: 4 days  
+  - *Description*: As a user, I want to message the cleaner in-app so that I can discuss cleaning preferences or reschedule.
+
+- [ ] **Manage Bookings and Cancellations** | Priority: High | Estimate: 6 days  
+  - *Description*: As a cleaner, I want to manage and cancel bookings so that I can handle last-minute changes smoothly.
+
+- [ ] **Rating and Review System** | Priority: Medium | Estimate: 3 days  
+  - *Description*: As a user, I want to leave ratings and reviews so that other users can benefit from my experience.
+
+- [ ] **Admin Panel for Moderation** | Priority: Low | Estimate: 4 days  
+  - *Description*: As an admin, I want to manage users and reported content so that I can ensure the platform remains safe and professional.
