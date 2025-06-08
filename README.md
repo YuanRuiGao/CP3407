@@ -24,8 +24,13 @@ It is recommended to complete this assignment in a group of 2-4 students.
 
 # Project planning BEFORE iteration-1
 Checklist/TODOs: 
-* [user story title](./user_stories/user_story_01_title.md), priority XX, YY days 
-* ...
+* [Book Cleaning Service](./user_stories/user_story_01_Book _Cleaning_Service.md), priority 10(Heigh), 6 days 
+* [View Cleaner Profiles](./user_stories/user_story_02_View_Cleaner_Profiles.md), priority 7(Medium), 3 days
+* [Payment via Card/PayPal](./user_stories/user_story_03_Payment via Card/PayPal.md), priority 10(Heigh), 6 days
+* [Cleaner Availability Management](./user_stories/user_story_04_Cleaner Availability Management.md), priority 7(Medium), 4 days
+* [Receive_Notifications](.user_stories/user_story_05_Receive_Notifications.md), priority 5(Low), 2 days
+* [In-App Chat with Cleaner](.user_stories/user_story_06_In-App Chat with Cleaner.md), priority 7(Medium), 4 days
+* [Manage Bookings and Cancellations](./user_stories/user_story_07_Manage Bookings and Cancellations.md), priority 10(Heigh), 6 days 
 
 Total: YY days
 
