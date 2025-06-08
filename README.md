@@ -3,10 +3,9 @@ How to edit this: test-2025
 * Option-1 (tested and worked ok): PyCharm supports editing of these .md files. Then you need to push to the main branch or make a pull request.
 * Option-2 (tested ok): Edit and commit it directly on github. Then any local repo copies will need to be "updated".
 
-# cp3407-project-v2024 template [Delete or change to your team/project name before submitting]
+# cp3407-House cleaning booking app
+* This a project assignment template for CP3407. The following is the list of items, which are required to be completed.
 
-This a project assignment template for CP3407. 
-The following is the list of items, which are required to be completed.
 
 ## How to submit [You may delete this before submitting]
 
@@ -18,17 +17,13 @@ The following is the list of items, which are required to be completed.
 
 It is recommended to complete this assignment in a group of 2-4 students.
 1. Yuanuri Gao
-2. Hao Zhang 
+2. Hao Zhang
 3. Chunhan Liu
 4. ZhiXing Li
 
 
-# Project planning BEFORE iteration-1, (see chapters 1-3)
+# Project planning BEFORE iteration-1
 Checklist/TODOs: 
-* Update the following during each week prac session
-* github entry timestamp is BEFORE the iteration-1
-* User stories are correct: see p39
-* Must have more user stories than fits into iterations 1 and 2. To practice the priority.
 * [user story title](./user_stories/user_story_01_title.md), priority XX, YY days 
 * ...
 
