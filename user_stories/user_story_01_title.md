@@ -1,26 +1,19 @@
-Create more md files like this one as needed. Place them into the same folder 
-as this [user_stories folder](./)
+# User story title: Book Cleaning Service
 
-# User story title: e.g. Show current deals
+## Priority: 10 (High)
 
-Keep any other version here as well, e.g. Display current deals, Let user to click on "show-current-deals".
-
-## Priority: 10 (e.g. latest for iteration-1)
-Any notes on priority go here. 
-Note you may have different priorities at different stages of you project.
-Again, keep all changes here for marking.
-
-## Estimation: e.g. 2 days
-Any notes on estimation go here. Keep your planning poker game numbers. For example
-* Bob: 1 day (e.g. estimated before iteration-1)
-* Lisa: 2 days
-* Jack: 3 days
+## Estimation: 5 days
+* LiuChunhan: 4 day
+* GaoYuanrui: 6 days
+* ZhangHao: 6 days
+* LiZhixing: 5 days
 
 ## Assumptions (if any):
+* User logged in
+* Cleaner information and service hours are already in the system
 
-## Description: e.g. The web page will show current deals to Orion's orbits users
-You need to keep all versions here so that your instructor/marker can see your changes easily. 
-In a real project, your older versions could be viewed via commits.
+## Description:
+The app will allow users to select a cleaning service, including the type of service, time and cleaner, and submit a booking request.
 
 Description-v1: e.g. The web site will show current deals to Orion's orbits users
 
