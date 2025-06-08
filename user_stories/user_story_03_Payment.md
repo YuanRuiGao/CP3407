@@ -1,4 +1,4 @@
-# User story title: Book Cleaning Service
+# User story title: Payment via Card/PayPal
 
 ## Priority: 10 (High)
 
