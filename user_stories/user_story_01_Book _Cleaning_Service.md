@@ -15,18 +15,14 @@
 ## Description:
 The app will allow users to select a cleaning service, including the type of service, time and cleaner, and submit a booking request.
 
-Description-v1: e.g. The web site will show current deals to Orion's orbits users
-
-## Tasks, see chapter 4.
-
-1. Task 1, Estimation XX days
-2. ...
-
+## Tasks
+1. Design booking screen UI – 1 day
+2. Implement time and cleaner selection – 2 days
+3. Backend integration for booking submission – 1 day
+4. Save booking in database and confirm status – 1 day
 
 # UI Design:
-* (New, not in the textbook) 
-* Many user stories are connected to a User interface.
-* Insert a mockup design screenshot using any prototyping tools, e.g. [https://ninjamock.com/](https://ninjamock.com/)
+Mobile screen mockup with dropdowns for cleaner and service type, calendar/time picker, and a "Confirm Booking" button.
 
 # Completed:
 * (New, not in the textbook) 
