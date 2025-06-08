@@ -43,16 +43,56 @@ Main Gold of the Application
 Total: 31 days
 
 
-## Iteration 1 [duration 3-4 weeks], start date: 2025/6/8 -->  
-
-* The app will allow users to select a cleaning service, including the type of service, time and cleaner, and submit a booking request.
+## Iteration 1 [week 3 - week 4 ], start date: 2025/6/5 -->  
 
 1. [Book Cleaning Service](./user_stories/user_story_01_Book _Cleaning_Service.md), priority 10(Heigh), 6 days
+        The app will allow users to select a cleaning service, including the type of service, time and cleaner, and submit a booking request.
 
-Total: 6 days
+        Tasks
+        1. Yuanuri Gao
+            1. Design booking screen UI
+            2. Implement time and cleaner selection
+        2. Hao Zhang
+            1. Backend integration for booking submission
+            2. Save booking in database and confirm status
+        
+        
+
+2. [View Cleaner Profiles](./user_stories/user_story_02_View_Cleaner_Profiles.md), priority 7(Medium), 3 days
+        Users can browse cleaner profiles to compare qualifications, ratings, and availability.
+
+        Tasks
+        1. Chunhan Liu
+            1. UI layout for profile cards
+            2. Connect to API and fetch cleaner data
+        1. ZhiXing Li
+            3. Detail view for each cleaner
+
+Total: 8 days
 
 
-### Iteration 2 [duration 3-4 weeks], add your start and end dates
+## Iteration 2 [priority 7(Medium)], add your start and end dates
+Goal is to have 2 iterations during a trimester of teaching.
+1. [user story title](./user_stories/user_story_01_title.md), priority XX, YY days 
+2. ...
+
+Total: YY days
+
+## Iteration 2 [duration 3-4 weeks], add your start and end dates
+Goal is to have 2 iterations during a trimester of teaching.
+1. [user story title](./user_stories/user_story_01_title.md), priority XX, YY days 
+2. ...
+
+Total: YY days
+
+## Iteration 2 [duration 3-4 weeks], add your start and end dates
+Goal is to have 2 iterations during a trimester of teaching.
+1. [user story title](./user_stories/user_story_01_title.md), priority XX, YY days 
+2. ...
+
+Total: YY days
+
+## Iteration 2 [duration 3-4 weeks], add your start and end dates
 Goal is to have 2 iterations during a trimester of teaching.
 1. [user story title](./user_stories/user_story_01_title.md), priority XX, YY days 
 2. ...
