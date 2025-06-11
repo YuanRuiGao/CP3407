@@ -43,7 +43,7 @@ Main Gold of the Application
 Total: 31 days
 
 
-## Iteration 1 [week 3 - week 4 ], start date: 2025/6/6 -->  
+## Iteration 1 [week 3 - week 6 ], start date: 2025/6/6 -->  
 
 1. [Book Cleaning Service](./user_stories/user_story_01_Book _Cleaning_Service.md), priority 10(Heigh), 6 days
         The app will allow users to select a cleaning service, including the type of service, time and cleaner, and submit a booking request.
@@ -68,42 +68,47 @@ Total: 31 days
         1. ZhiXing Li
             3. Detail view for each cleaner
 
-Total: 8 days
+3. [Payment via Card/PayPal](./user_stories/user_story_03_Payment via Card/PayPal.md), priority 10(Heigh), 6 days
+        Users can securely complete payments via credit/debit card or PayPal.
+
+        Tasks
+        1. Yuanuri Gao
+            1. Payment method selection screen
+            2. Integration of payment SDKs
+            3. Handle payment result callbacks
+        2. Hao Zhang
+            1. Store payment confirmation
+
+4. [Cleaner Availability Management](./user_stories/user_story_04_Cleaner Availability Management.md), priority 7(Medium), 4 days
+        Cleaners can set and manage their available time slots in the app.
+
+        Tasks
+        1. Chunhan Liu
+            1. UI for weekly schedule selection
+            2. Save availability to backend
+        2. ZhiXing Li
+            1. Handle payment result callbacks
+            2. Sync availability with booking engine
+
+5. [Receive_Notifications](.user_stories/user_story_05_Receive_Notifications.md), priority 5(Low), 2 days
+        Users receive push notifications about upcoming bookings and reminders before the scheduled service time.
+
+        Tasks
+        1. Yuanuri Gao, Hao Zhang
+            1. Implement push notification logic
+        3. Chunhan Liu, ZhiXing Li
+            2. Create triggers for booking confirmation and reminders
+
+Total: 21 days
 
 
-## Iteration 2 [priority 7(Medium)], add your start and end dates
+## Iteration 2 [week 6 - week 9 ], add your start and end dates
 Goal is to have 2 iterations during a trimester of teaching.
 1. [user story title](./user_stories/user_story_01_title.md), priority XX, YY days 
 2. ...
 
 Total: YY days
 
-## Iteration 2 [duration 3-4 weeks], add your start and end dates
-Goal is to have 2 iterations during a trimester of teaching.
-1. [user story title](./user_stories/user_story_01_title.md), priority XX, YY days 
-2. ...
-
-Total: YY days
-
-## Iteration 2 [duration 3-4 weeks], add your start and end dates
-Goal is to have 2 iterations during a trimester of teaching.
-1. [user story title](./user_stories/user_story_01_title.md), priority XX, YY days 
-2. ...
-
-Total: YY days
-
-## Iteration 2 [duration 3-4 weeks], add your start and end dates
-Goal is to have 2 iterations during a trimester of teaching.
-1. [user story title](./user_stories/user_story_01_title.md), priority XX, YY days 
-2. ...
-
-Total: YY days
-
-### Not enough time/developers: 
-1. [user story title](./user_stories/user_story_01_title.md), priority XX, YY days 
-2. ...
-
-Total: YY days
 
 # Actual iterations
 1. [Iteration-1](./iteration_1.md)
