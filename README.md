@@ -43,7 +43,7 @@ Main Gold of the Application
 Total: 31 days
 
 
-## Iteration 1 [week 3 - week 4 ], start date: 2025/6/5 -->  
+## Iteration 1 [week 3 - week 4 ], start date: 2025/6/6 -->  
 
 1. [Book Cleaning Service](./user_stories/user_story_01_Book _Cleaning_Service.md), priority 10(Heigh), 6 days
         The app will allow users to select a cleaning service, including the type of service, time and cleaner, and submit a booking request.
