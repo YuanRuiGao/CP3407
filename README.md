@@ -49,10 +49,10 @@ Total: 31 days
         The app will allow users to select a cleaning service, including the type of service, time and cleaner, and submit a booking request.
 
         Tasks
-        1. Yuanuri Gao
+        1. Yuanuri Gao, Hao Zhang
             1. Design booking screen UI
             2. Implement time and cleaner selection
-        2. Hao Zhang
+        2. Chunhan Liu
             1. Backend integration for booking submission
             2. Save booking in database and confirm status
         
