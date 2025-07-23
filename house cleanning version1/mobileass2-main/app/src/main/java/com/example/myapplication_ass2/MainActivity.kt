@@ -49,7 +49,7 @@ class MainActivity : ComponentActivity() {
                         composable("daily_routine") { AppointmentScreen(navController) }
                         composable("communication") { FamilyCommunicationScreen(navController) }
                         composable("appointment_log") { AppointmentLogScreen(navController) }
-                        composable("service_details") { ServiceDetailsScreen(navController) } // ✅ 新增页面
+                        composable("service_details") { ServiceDetailsScreen(navController) } // ✅ 新增
                     }
                 }
             }
@@ -108,11 +108,11 @@ fun HomeScreen(navController: NavHostController, settingsViewModel: AppSettingsV
             Spacer(Modifier.height(24.dp))
 
             val options = listOf(
+                Triple("Service Details", "service_details", Icons.Default.Info), // ✅ 调到最前
                 Triple("Payment Schedule", "payment", Icons.Default.MedicalServices),
                 Triple("Cleaner Appointment", "daily_routine", Icons.Default.List),
                 Triple("Cleaner Communication", "communication", Icons.Default.Phone),
-                Triple("App Settings", "settings", Icons.Default.Settings),
-                Triple("Service Details", "service_details", Icons.Default.Info) // ✅ 新增入口
+                Triple("App Settings", "settings", Icons.Default.Settings)
             )
 
             Column(horizontalAlignment = Alignment.CenterHorizontally) {
