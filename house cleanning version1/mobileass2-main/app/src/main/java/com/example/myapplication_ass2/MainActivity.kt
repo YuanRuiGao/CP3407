@@ -143,6 +143,23 @@ fun HomeScreen(navController: NavHostController, settingsViewModel: AppSettingsV
                         }
                     }
                 }
+                Spacer(Modifier.height(20.dp))
+
+                // ✅ Logout button
+                Button(
+                    onClick = {
+                        FirebaseAuth.getInstance().signOut()
+                        navController.navigate("login") {
+                            popUpTo("home") { inclusive = true }
+                        }
+                    },
+                    colors = ButtonDefaults.buttonColors(containerColor = Color.Red),
+                    modifier = Modifier
+                        .fillMaxWidth(0.6f)
+                        .height(48.dp)
+                ) {
+                    Text("Log Out", color = Color.White, fontSize = 16.sp)
+                }
             }
         }
     }
