@@ -48,7 +48,8 @@ class MainActivity : ComponentActivity() {
                         composable("payment") { PaymentScreen(navController) }
                         composable("daily_routine") { AppointmentScreen(navController) }
                         composable("communication") { FamilyCommunicationScreen(navController) }
-                        composable("appointment_log") { AppointmentLogScreen(navController) } // ✅ 新增
+                        composable("appointment_log") { AppointmentLogScreen(navController) }
+                        composable("service_details") { ServiceDetailsScreen(navController) } // ✅ 新增页面
                     }
                 }
             }
@@ -110,7 +111,8 @@ fun HomeScreen(navController: NavHostController, settingsViewModel: AppSettingsV
                 Triple("Payment Schedule", "payment", Icons.Default.MedicalServices),
                 Triple("Cleaner Appointment", "daily_routine", Icons.Default.List),
                 Triple("Cleaner Communication", "communication", Icons.Default.Phone),
-                Triple("App Settings", "settings", Icons.Default.Settings)
+                Triple("App Settings", "settings", Icons.Default.Settings),
+                Triple("Service Details", "service_details", Icons.Default.Info) // ✅ 新增入口
             )
 
             Column(horizontalAlignment = Alignment.CenterHorizontally) {
