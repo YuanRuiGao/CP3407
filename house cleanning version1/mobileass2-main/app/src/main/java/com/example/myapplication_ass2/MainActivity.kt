@@ -26,6 +26,7 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.*
 import com.example.myapplication_ass2.ui.theme.MyApplication_ass2Theme
+import com.google.firebase.auth.FirebaseAuth
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -36,13 +37,18 @@ class MainActivity : ComponentActivity() {
             val navController = rememberNavController()
             val settingsViewModel: AppSettingsViewModel = viewModel()
 
+            val user = FirebaseAuth.getInstance().currentUser
+            val startDestination = if (user != null) "home" else "login"
+
             MyApplication_ass2Theme {
                 Scaffold { innerPadding ->
                     NavHost(
                         navController = navController,
-                        startDestination = "home",
+                        startDestination = startDestination,
                         modifier = Modifier.padding(innerPadding)
                     ) {
+                        composable("login") { LoginScreen(navController) }
+                        composable("register") { RegisterScreen(navController) }
                         composable("home") { HomeScreen(navController, settingsViewModel) }
                         composable("settings") { SettingsScreen(navController, settingsViewModel) }
                         composable("payment") { PaymentScreen(navController) }

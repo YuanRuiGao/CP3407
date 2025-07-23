@@ -3,6 +3,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+    alias(libs.plugins.google.services)
     id("com.google.devtools.ksp") version "2.1.0-1.0.29"  // 启用 kapt 插件，确保 Room 注解处理器运行
 }
 
@@ -84,4 +85,9 @@ dependencies {
     testImplementation("io.mockk:mockk:1.13.4")
     testImplementation("org.robolectric:robolectric:4.8.1")
 
+    implementation(platform("com.google.firebase:firebase-bom:32.7.1"))
+    implementation("com.google.firebase:firebase-auth-ktx")
+
+    implementation(platform(libs.firebase.bom)) // ✅ 使用 BOM 管理版本
+    implementation(libs.firebase.auth)         // ✅ Firebase Auth
 }
