@@ -32,16 +32,27 @@ It is recommended to complete this assignment in a group of 2-4 students.
 
 ####    While completing the above functions, the software can also become a platform for direct communication between users and staff.
 
-* [Book Cleaning Service](./user_stories/user_story_01_Book _Cleaning_Service.md), priority 10(Heigh), 6 days
-* [View Cleaner Profiles](./user_stories/user_story_02_View_Cleaner_Profiles.md), priority 7(Medium), 3 days
-* [Payment via Card/PayPal](./user_stories/user_story_03_Payment via Card/PayPal.md), priority 10(Heigh), 6 days
-* [Cleaner Availability Management](./user_stories/user_story_04_Cleaner Availability Management.md), priority 7(Medium), 4 days
-* [Receive_Notifications](.user_stories/user_story_05_Receive_Notifications.md), priority 5(Low), 2 days
-* [In-App Chat with Cleaner](.user_stories/user_story_06_In-App Chat with Cleaner.md), priority 7(Medium), 4 days
-* [Manage Bookings and Cancellations](./user_stories/user_story_07_Manage Bookings and Cancellations.md), priority 10(Heigh), 6 days 
+### All User Stories
 
-Total: 31 days
+1.Title: Book Cleaning Service, Priority: High, Estimate: 5 day
+2.Title: View Cleaner Profiles, Priority: Medium, Estimate: 3 day
+3.Title: Payment via Card/PayPal, Priority: High, Estimate: 6 day
+4.Title: Cleaner Availability Management, Priority: Medium, Estimate: 4 day
+5.Title: Receive Booking Notifications, Priority: Low, Estimate: 2 day
+6.Title: In-App Chat with Cleaner, Priority: Medium, Estimate: 4 day
+7.Title: Manage Bookings and Cancellations, Priority: High, Estimate: 6 day
 
+
+   Total: 30 days
+
+
+### Project Timeline
+
+  | No.|   Phase	              |Duration                    |Weeks         |
+  |----|:----------------------:|:--------------------------:|:------------:|
+  | 1. | Iteration 1            |   4 weeks                  |   Week 3 – 6   |
+  | 2. | Iteration 2            |   3 weeks                  |   Week 7 – 10  |
+  
 
 ## Iteration 1 [week 3 - week 6 ], start date: 2025/6/6 -->  
 
@@ -101,13 +112,32 @@ Total: 31 days
 
 Total: 21 days
 
-
+4.Title: Cleaner Availability Management, Priority: Medium, Estimate: 4 day
+5.Title: Receive Booking Notifications, Priority: Low, Estimate: 2 day
+6.Title: In-App Chat with Cleaner, Priority: Medium, Estimate: 4 day
+7.Title: Manage Bookings and Cancellations, Priority: High, Estimate: 6 day
 ## Iteration 2 [week 6 - week 9 ], add your start and end dates
-Goal is to have 2 iterations during a trimester of teaching.
-1. [user story title](./user_stories/user_story_01_title.md), priority XX, YY days 
-2. ...
 
-Total: YY days
+### Main Goal for Iteration-2
+
+#### Deliver a functional core gym access system that enables:
+
+* The usability and stability of the app are ensured to prevent any special circumstances from causing it to be unusable.
+
+* Connect the app to the notification function of the device
+
+* The function for modifying and canceling orders
+
+* The personalized minor functions for both parties ensure smooth communication between them.
+
+### User Story
+
+| ID | Title                           | Priority | Est. Days | Notes                                |
+| -- | ------------------------------- | -------- | --------- | ------------------------------------ |
+| 4     | Cleaner Availability Management       | Medium    | 4 day     | Design a simple interface to make the app easy to use and enjoyable.|
+| 5     | Receive Booking Notifications         | Low       | 2 day     | It enables the app to send reminders to the device, with options for ringtone alerts and displaying information at the top of the phone. |
+| 6     | In-App Chat with Cleaner              | Medium    | 4 days    | Enable employers and cleaners to communicate directly within the app  |
+| 7     | Manage Bookings and Cancellations     | High      | 6 days    | Enable employers to cancel reservations through the app, and send reminders and confirmations to the cleaners. |
 
 
 # Actual iterations
