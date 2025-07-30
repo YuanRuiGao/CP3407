@@ -31,7 +31,6 @@
 
 | Task                                      | Developer      | Start Date    |
 | ----------------------------------------- | -------------- | ------------- |
-
 |  Real-Time Chat with Cleaners             |  Yuanuri Gao   | July 11, 2025 |
 |  Payment Integration                      |  Chunhan Liu   | July 11, 2025 |
 |  Rebooking and Service History            |  ZhiXing Li    | July 13, 2025 |
