@@ -38,7 +38,3 @@
 ### Burn Down for iteration-1 (see chapter 4):
 Update this at least once per week
 
-1. Yuanuri Gao
-2. Hao Zhang
-3. Chunhan Liu
-4. ZhiXing Li
