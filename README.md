@@ -9,9 +9,9 @@ How to edit this: test-2025
 
 ## How to submit [You may delete this before submitting]
 
-2. Add your instructor (JCU-Australia: jc138691@gmail.com Dmitry Konovalov) as a team member to view your project on github
-1. Submit link to your repository
-2. Download your github repository as a zip file and submit via LearnJCU.
+#### 2. Add your instructor (JCU-Australia: jc138691@gmail.com Dmitry Konovalov) as a team member to view your project on github
+#### 1. Submit link to your repository
+#### 2. Download your github repository as a zip file and submit via LearnJCU.
 
 ## Team
 
@@ -23,14 +23,14 @@ It is recommended to complete this assignment in a group of 2-4 students.
 
 
 # Project planning BEFORE iteration-1
-Main Gold of the Application
-    We plan to create a mobile phone-based house cleaning appointment software, which has two functions: user-oriented and employee-oriented.
+### Main Gold of the Application
+   #### We plan to create a mobile phone-based house cleaning appointment software, which has two functions: user-oriented and employee-oriented.
 
-    For users, users can log in to store their house information locally and use the software to make an appointment with a nearby registered cleaning company for door-to-door service.
+####    For users, users can log in to store their house information locally and use the software to make an appointment with a nearby registered cleaning company for door-to-door service.
 
-    For employees (registered cleaning company staff), the function is to store employees' personal information and provide services to nearby users who have made an appointment through the software.
+####    For employees (registered cleaning company staff), the function is to store employees' personal information and provide services to nearby users who have made an appointment through the software.
 
-    While completing the above functions, the software can also become a platform for direct communication between users and staff.
+####    While completing the above functions, the software can also become a platform for direct communication between users and staff.
 
 * [Book Cleaning Service](./user_stories/user_story_01_Book _Cleaning_Service.md), priority 10(Heigh), 6 days
 * [View Cleaner Profiles](./user_stories/user_story_02_View_Cleaner_Profiles.md), priority 7(Medium), 3 days
