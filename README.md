@@ -132,8 +132,8 @@ Total: 21 days
 
 ### User Story
 
-| ID | Title                           | Priority | Est. Days | Notes                                |
-| -- | ------------------------------- | -------- | --------- | ------------------------------------ |
+| ID    | Title                                 | Priority  | Est. Days | Notes                                |
+| --    | -------------------------------       | --------  | --------- | ------------------------------------ |
 | 4     | Cleaner Availability Management       | Medium    | 4 day     | Design a simple interface to make the app easy to use and enjoyable.|
 | 5     | Receive Booking Notifications         | Low       | 2 day     | It enables the app to send reminders to the device, with options for ringtone alerts and displaying information at the top of the phone. |
 | 6     | In-App Chat with Cleaner              | Medium    | 4 days    | Enable employers and cleaners to communicate directly within the app  |
@@ -143,5 +143,7 @@ Total: 21 days
 # Actual iterations
 1. [Iteration-1](./iteration_1.md)
 2. [Iteration-2](./iteration_2.md)
+
+
 
 
