@@ -54,73 +54,34 @@ It is recommended to complete this assignment in a group of 2-4 students.
   | 2. | Iteration 2            |   3 weeks                  |   Week 7 – 10  |
   
 
-## Iteration 1 [week 3 - week 6 ], start date: 2025/6/6 -->  
-
-1. [Book Cleaning Service](./user_stories/user_story_01_Book _Cleaning_Service.md), priority 10(Heigh), 6 days
-        The app will allow users to select a cleaning service, including the type of service, time and cleaner, and submit a booking request.
-
-        Tasks
-        1. Yuanuri Gao, Hao Zhang
-            1. Design booking screen UI
-            2. Implement time and cleaner selection
-        2. Chunhan Liu
-            1. Backend integration for booking submission
-            2. Save booking in database and confirm status
-        
-        
-
-2. [View Cleaner Profiles](./user_stories/user_story_02_View_Cleaner_Profiles.md), priority 7(Medium), 3 days
-        Users can browse cleaner profiles to compare qualifications, ratings, and availability.
-
-        Tasks
-        1. Chunhan Liu
-            1. UI layout for profile cards
-            2. Connect to API and fetch cleaner data
-        1. ZhiXing Li
-            3. Detail view for each cleaner
-
-3. [Payment via Card/PayPal](./user_stories/user_story_03_Payment via Card/PayPal.md), priority 10(Heigh), 6 days
-        Users can securely complete payments via credit/debit card or PayPal.
-
-        Tasks
-        1. Yuanuri Gao
-            1. Payment method selection screen
-            2. Integration of payment SDKs
-            3. Handle payment result callbacks
-        2. Hao Zhang
-            1. Store payment confirmation
-
-4. [Cleaner Availability Management](./user_stories/user_story_04_Cleaner Availability Management.md), priority 7(Medium), 4 days
-        Cleaners can set and manage their available time slots in the app.
-
-        Tasks
-        1. Chunhan Liu
-            1. UI for weekly schedule selection
-            2. Save availability to backend
-        2. ZhiXing Li
-            1. Handle payment result callbacks
-            2. Sync availability with booking engine
-
-5. [Receive_Notifications](.user_stories/user_story_05_Receive_Notifications.md), priority 5(Low), 2 days
-        Users receive push notifications about upcoming bookings and reminders before the scheduled service time.
-
-        Tasks
-        1. Yuanuri Gao, Hao Zhang
-            1. Implement push notification logic
-        3. Chunhan Liu, ZhiXing Li
-            2. Create triggers for booking confirmation and reminders
-
-Total: 21 days
-
-4.Title: Cleaner Availability Management, Priority: Medium, Estimate: 4 day
-5.Title: Receive Booking Notifications, Priority: Low, Estimate: 2 day
-6.Title: In-App Chat with Cleaner, Priority: Medium, Estimate: 4 day
-7.Title: Manage Bookings and Cancellations, Priority: High, Estimate: 6 day
-## Iteration 2 [week 6 - week 9 ], add your start and end dates
+## Iteration 1 [week 3 - week 6 ], start date: 2025/6/6 -->  2025/7/1
 
 ### Main Goal for Iteration-2
 
-#### Deliver a functional core gym access system that enables:
+#### Deliver a functional core cleaner app that enables:
+
+* Create the basic interface of the cleaning app, which is divided into employer users and cleaning worker users.
+
+* Enable the app to issue and receive orders
+
+* Enable the app to connect to the external network and make it available.
+
+* Enable the app users to upload their own information, and display the detailed information of employers and cleaners on the hiring interface.
+
+### User Story
+
+| ID    | Title                             | Priority  | Est. Days | Notes                                |
+| --    | -------------------------------   | --------  | --------- | ------------------------------------ |
+| 1     | Book Cleaning Service             | High      |   5  day  | The app will allow users to select a cleaning service, including the type of service, time and cleaner, and submit a booking request..|
+| 2     | View Cleaner Profiles             | Medium    |   3 day   | Users can browse cleaner profiles to compare qualifications, ratings, and availability.|
+| 3     | Payment via Card/PayPal           | Medium    |   4 days  | Enable employers and cleaners to communicate directly within the app  |
+
+
+## Iteration 2 [week 6 - week 9 ], start date: 2025/7/6 -->  
+
+### Main Goal for Iteration-2
+
+#### Deliver a functional core cleaner app that enables:
 
 * The usability and stability of the app are ensured to prevent any special circumstances from causing it to be unusable.
 

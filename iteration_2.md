@@ -35,10 +35,10 @@
 |  Payment Integration                      |  Chunhan Liu   | July 11, 2025 |
 |  Rebooking and Service History            |  ZhiXing Li    | July 13, 2025 |
 |  Feedback System for App Improvement      |  Hao Zhang     | July 14, 2025 |
-|  Multilingual Support                     |  Yuanuri Gao   | July 12, 2025 |
-|  Cleaner Verification Process             |  Chunhan Liu   | July 12, 2025 |
-|  Promotional Offers and Discount Codes    |  ZhiXing Li    | July 14, 2025 |
-|  Location-based Booking Suggestions       |  Hao Zhang     | July 16, 2025 |
+|  Multilingual Support                     |  Yuanuri Gao   | July 14, 2025 |
+|  Cleaner Verification Process             |  Chunhan Liu   | July 16, 2025 |
+|  Promotional Offers and Discount Codes    |  ZhiXing Li    | July 15, 2025 |
+|  Location-based Booking Suggestions       |  Hao Zhang     | July 17, 2025 |
 
 ## Completed
 | Task                      | Developer | Date Completed |
@@ -47,9 +47,8 @@
 |  Payment Integration                      |  Chunhan Liu   | July 14, 2025 |
 |  Rebooking and Service History            |  ZhiXing Li    | July 13, 2025 |
 |  Feedback System for App Improvement      |  Hao Zhang     | July 15, 2025 |
-|  Multilingual Support                     |  Yuanuri Gao   | July 16, 2025 |
+|  Multilingual Support                     |  Yuanuri Gao   | July 25, 2025 |
 
-### Burn Down for iteration-1 (see chapter 4):
-Update this at least once per week
+
 
 
