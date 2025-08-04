@@ -2,7 +2,7 @@
 
 * Assumed Velocity: 12 days
 * Number of developers: 4
-* Total estimated amount of work: 15 days
+* Total estimated amount of work: 16 days
 ## User Story
 
 | ID    | Title                             | Priority  | Est. Days | Notes                                |
@@ -33,10 +33,10 @@
 ## Completed
 | Task                                      | Developer     | Date Completed    |
 | ----------------------------------------- | --------------| -------------     |
-| App Interface Prototype                   |  Yuanuri Gao  | June 16, 2025      |
-| User Registration & Login                 |  Hao Zhang    | June 17, 2025      |
+| App Interface Prototype                   |  Yuanuri Gao  | June 16, 2025     |
+| User Registration & Login                 |  Hao Zhang    | June 17, 2025     |
 | Booking a Cleaning Service                |  Chunhan Liu  | June 16, 2025     |
-| Viewing Available Time Slots              |  ZhiXing Li   | June 18, 2025      |
+| Viewing Available Time Slots              |  ZhiXing Li   | June 18, 2025     |
 | Cleaner Profile and Rating System         |  Yuanuri Gao  | June 27, 2025     |
 
 
