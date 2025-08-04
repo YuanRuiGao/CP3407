@@ -6,17 +6,17 @@
 
 ### User Story
 
-| ID | Title                           | Priority | Est. Days | Notes                                |
-| -- | ------------------------------- | -------- | --------- | ------------------------------------ |
-| 4  | Cleaner Availability Management      | Medium     | 4 day     | Design a simple interface to make the app easy to use and enjoyable.|
-| 5  | Receive Booking Notifications        | Low     | 2 day     | It enables the app to send reminders to the device, with options for ringtone alerts and displaying information at the top of the phone. |
-| 6  | In-App Chat with Cleaner             | Medium     | 4 days    | Enable employers and cleaners to communicate directly within the app  |
-| 7 | Manage Bookings and Cancellations     | High     | 6 days    | Enable employers to cancel reservations through the app, and send reminders and confirmations to the cleaners. |
+| ID    | Title                             | Priority  | Est.Days  | Notes                                |
+| --    | -------------------------------   | --------  | --------- | ------------------------------------ |
+| 4     | Cleaner Availability Management   | Medium    | 4 days    | Design a simple interface to make the app easy to use and enjoyable.|
+| 5     | Receive Booking Notifications     | Low       | 2 days    | It enables the app to send reminders to the device, with options for ringtone alerts and displaying information at the top of the phone. |
+| 6     | In-App Chat with Cleaner          | Medium    | 4 days    | Enable employers and cleaners to communicate directly within the app  |
+| 7     | Manage Bookings and Cancellations | High      | 6 days    | Enable employers to cancel reservations through the app, and send reminders and confirmations to the cleaners. |
 
 
 ## Backlog – Tasks
-| Title                           | Priority | Est.Days      | Describes                                |
-| ------------------------------- | :------: | :-----------: | ---------------------------------------- |
+| Title                                         | Priority  |    Est.Days    | Describes                            |
+| -----------------------------------------     | ------    |   ----------   | ------------------------------------ |
 | Real-Time Chat with Cleaners                  | High      |     4 days     |  Add the function to our app that enables employers and cleaners to have real-time chatting. |
 | Payment Integration                           | Medium    |     3 days     |  Allow employers to make payments in multiple ways |
 | Rebooking and Service History                 | Medium    |     3 days     |  Allow the employer to make modifications to the orders and issue reminders to the cleaners |
