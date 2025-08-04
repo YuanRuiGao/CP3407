@@ -13,13 +13,13 @@
 
 ## Backlog – Tasks
 
-| Title                                     | Priority |    Est.    | Describes                            |
-| ----------------------------------------- | :------: |  :----:    | ------------------------------------ |
-| App Interface Prototype                   |   High   |  3 days    | Design the basic interface of the app|
-| User Registration & Login                 |   High   |  4 days    | Design the account system and login function of the app|
-| Booking a Cleaning Service                |   High   |  4 days    | Enable employers who use the app to officially place orders, and allow the clear worker accounts to receive the information.|
-| Viewing Available Time Slots              |   High   |  3 days    | Further improve the interface and functions for placing orders, so that both parties can agree on a mutually acceptable time.|
-| Cleaner Profile and Rating System         |   High   |  2 days    | Allow the cleaners to submit proof of their work after completion, including photos of the area before and after cleaning, for rating and subsequent evaluation.|
+| Title                                     | Priority  | Est. Days  | Describes                            |
+| ----------------------------------------- | ------    |  --------  | ------------------------------------ |
+| App Interface Prototype                   |   High    |  3 days    | Design the basic interface of the app|
+| User Registration & Login                 |   High    |  4 days    | Design the account system and login function of the app|
+| Booking a Cleaning Service                |   High    |  4 days    | Enable employers who use the app to officially place orders, and allow the clear worker accounts to receive the information.|
+| Viewing Available Time Slots              |   High    |  3 days    | Further improve the interface and functions for placing orders, so that both parties can agree on a mutually acceptable time.|
+| Cleaner Profile and Rating System         |   High    |  2 days    | Allow the cleaners to submit proof of their work after completion, including photos of the area before and after cleaning, for rating and subsequent evaluation.|
 ## In Progress
 
 | Task                                      | Developer     | Start Date    |
