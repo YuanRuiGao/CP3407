@@ -1,2 +1,4 @@
-111
-
+#I. Project Background
+###The House Cleaning App (hereinafter referred to as the "App") is dedicated to providing users with convenient home cleaning service booking, service execution, and payment capabilities. This report summarizes the issues encountered during actual use and explains the processes and causes.
+#II.Test the login function
+##First Test Process:
