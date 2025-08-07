@@ -7,11 +7,11 @@ How to edit this: test-2025
 * This a project assignment template for CP3407. The following is the list of items, which are required to be completed.
 
 
-## Team
+## Team: Practial A Group 6
 
 It is recommended to complete this assignment in a group of 2-4 students.
 ### 1. Yuanuri Gao, ID:JC998138
-### 2. Hao Zhang, ID:
+### 2. Hao Zhang, ID: JD112548
 ### 3. Chunhan Liu, ID:JD113319
 ### 4. ZhiXing Li,ID: JD116281
 
