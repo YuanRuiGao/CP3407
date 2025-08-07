@@ -34,16 +34,15 @@ It is recommended to complete this assignment in a group of 2-4 students.
 
 ### All User Stories
 
-1.Title: Book Cleaning Service, Priority: High, Estimate: 5 day
-2.Title: View Cleaner Profiles, Priority: Medium, Estimate: 3 day
-3.Title: Payment via Card/PayPal, Priority: High, Estimate: 6 day
-4.Title: Cleaner Availability Management, Priority: Medium, Estimate: 4 day
-5.Title: Receive Booking Notifications, Priority: Low, Estimate: 2 day
-6.Title: In-App Chat with Cleaner, Priority: Medium, Estimate: 4 day
-7.Title: Manage Bookings and Cancellations, Priority: High, Estimate: 6 day
+1. Title: Book Cleaning Service, Priority: High, Estimate: 5 day
+2. Title: View Cleaner Profiles, Priority: Medium, Estimate: 3 day
+3. Title: Payment via Card/PayPal, Priority: High, Estimate: 6 day
+4. Title: Cleaner Availability Management, Priority: Medium, Estimate: 4 day
+5. Title: Receive Booking Notifications, Priority: Low, Estimate: 2 day
+6. Title: In-App Chat with Cleaner, Priority: Medium, Estimate: 4 day
+7. Title: Manage Bookings and Cancellations, Priority: High, Estimate: 6 day
 
-
-   Total: 30 days
+Total: 30 days
 
 
 ### Project Timeline
@@ -77,7 +76,7 @@ It is recommended to complete this assignment in a group of 2-4 students.
 | 3     | Payment via Card/PayPal           | Medium    |   4 days  | Enable employers and cleaners to communicate directly within the app  |
 
 
-## Iteration 2 [week 6 - week 9 ], start date: 2025/7/6 -->  
+## Iteration 2 [week 6 - week 9 ], start date: 2025/7/6 -->  2025/8/6
 
 ### Main Goal for Iteration-2
 
