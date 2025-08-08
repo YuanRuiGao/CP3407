@@ -1,4 +1,4 @@
-## Team
+## PA Team 6
 
 1. Yuanuri Gao
 2. Hao Zhang
