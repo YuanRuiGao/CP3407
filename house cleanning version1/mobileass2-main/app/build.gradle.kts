@@ -87,6 +87,7 @@ dependencies {
 
     implementation(platform("com.google.firebase:firebase-bom:32.7.1"))
     implementation("com.google.firebase:firebase-auth-ktx")
+    implementation("com.google.firebase:firebase-firestore-ktx")
 
     implementation(platform(libs.firebase.bom)) // ✅ 使用 BOM 管理版本
     implementation(libs.firebase.auth)         // ✅ Firebase Auth

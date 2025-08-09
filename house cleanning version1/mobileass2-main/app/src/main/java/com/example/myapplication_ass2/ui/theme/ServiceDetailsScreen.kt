@@ -72,10 +72,10 @@ fun ServiceDetailsScreen(navController: NavController) {
                 items(services) { (title, desc, price) ->
                     Card(
                         shape = RoundedCornerShape(12.dp),
-                        modifier = Modifier.fillMaxWidth(),
+                        modifier = Modifier.fillMaxWidth().padding(8.dp),
                         colors = CardDefaults.cardColors(containerColor = Color.White.copy(alpha = 0.95f))
                     ) {
-                        Column(modifier = Modifier.padding(16.dp)) {
+                        Column(modifier = Modifier.fillMaxWidth().padding(16.dp)) {
                             Text(title, fontSize = 18.sp, fontWeight = FontWeight.SemiBold)
                             Spacer(Modifier.height(4.dp))
                             Text(desc, fontSize = 14.sp)
@@ -84,7 +84,7 @@ fun ServiceDetailsScreen(navController: NavController) {
                             Spacer(Modifier.height(8.dp))
                             Button(
                                 onClick = { navController.navigate("daily_routine") },
-                                modifier = Modifier.align(Alignment.End),
+                                modifier = Modifier.align(Alignment.CenterHorizontally),
                                 shape = RoundedCornerShape(8.dp)
                             ) {
                                 Text("Book Now!")

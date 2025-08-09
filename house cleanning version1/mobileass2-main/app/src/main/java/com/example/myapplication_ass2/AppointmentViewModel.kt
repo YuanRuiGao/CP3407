@@ -2,84 +2,106 @@ package com.example.myapplication_ass2
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
-import androidx.lifecycle.viewModelScope
+import com.google.firebase.Timestamp
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.firestore.FirebaseFirestore
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
-import kotlinx.coroutines.launch
-import java.io.File
-import java.io.FileWriter
-import java.io.IOException
+
+// 数据类：用于表示每条预约记录
+data class Appointment(
+    val location: String = "",
+    val cleanerLevel: String = "",
+    val date: String = "",
+    val time: String = "",
+    val price: Double = 0.0
+)
 
 class AppointmentViewModel(application: Application) : AndroidViewModel(application) {
 
-    private val dao = AppDatabase.getInstance(application).appointmentDao()
-    private val paymentDao = AppDatabase.getInstance(application).paymentDao()
-    private val appContext = application.applicationContext
+    private val firestore = FirebaseFirestore.getInstance()
+    private val auth = FirebaseAuth.getInstance()
 
-    private val _appointments = MutableStateFlow<List<AppointmentEntity>>(emptyList())
-    val appointments: StateFlow<List<AppointmentEntity>> = _appointments
+    private val _appointments = MutableStateFlow<List<Appointment>>(emptyList())
+    val appointments: StateFlow<List<Appointment>> = _appointments
 
     init {
-        viewModelScope.launch {
-            dao.getAllAppointments().collect { list ->
-                _appointments.value = list
-            }
-        }
+        listenToAppointments()
     }
 
+    /** 添加预约 */
     fun addAppointment(location: String, cleanerLevel: String, date: String, time: String) {
-        viewModelScope.launch {
-            val appointment = AppointmentEntity(
-                location = location,
-                cleanerLevel = cleanerLevel,
-                date = date,
-                time = time
-            )
-            dao.insertAppointment(appointment)
-            writeAppointmentToFile(appointment)
+        val currentUser = auth.currentUser ?: return
 
-            val price = calculatePrice(location, cleanerLevel)
-            paymentDao.insertPayment(
-                PaymentEntity(
-                    name = "$location ($cleanerLevel)",
-                    amount = price,
-                    time = "$date $time"
-                )
-            )
-        }
-    }
+        val price = calculatePrice(location, cleanerLevel) // 计算价格
+        val appointment = Appointment(location, cleanerLevel, date, time, price)
 
-    fun deleteAppointment(appointment: AppointmentEntity) {
-        viewModelScope.launch {
-            dao.deleteAppointment(appointment)
-        }
-    }
+        val data = hashMapOf(
+            "userId" to currentUser.uid,
+            "location" to location,
+            "cleanerLevel" to cleanerLevel,
+            "date" to date,
+            "time" to time,
+            "price" to price,
+            "createdAt" to Timestamp.now(),
+        )
 
-    private fun writeAppointmentToFile(appointment: AppointmentEntity) {
-        try {
-            val file = File(appContext.filesDir, "output.txt")
-            val writer = FileWriter(file, true)
-            writer.appendLine("Location: ${appointment.location}, Service: ${appointment.cleanerLevel}, Date: ${appointment.date}, Time: ${appointment.time}")
-            writer.close()
-        } catch (e: IOException) {
-            e.printStackTrace()
-        }
-    }
-
-    fun readAppointmentsFromFile(): String {
-        return try {
-            val file = File(appContext.filesDir, "output.txt")
-            if (file.exists()) {
-                file.readText()
-            } else {
-                "No records found."
+        firestore.collection("appointments")
+            .add(data)
+            .addOnFailureListener {
+                it.printStackTrace()
             }
-        } catch (e: IOException) {
-            e.printStackTrace()
-            "Error reading file."
-        }
     }
 
+    /** 删除预约 */
+    fun deleteAppointment(appointment: Appointment) {
+        val currentUser = auth.currentUser ?: return
+
+        firestore.collection("appointments")
+            .whereEqualTo("userId", currentUser.uid)
+            .whereEqualTo("location", appointment.location)
+            .whereEqualTo("cleanerLevel", appointment.cleanerLevel)
+            .whereEqualTo("date", appointment.date)
+            .whereEqualTo("time", appointment.time)
+            .get()
+            .addOnSuccessListener { result ->
+                for (doc in result) {
+                    firestore.collection("appointments").document(doc.id).delete()
+                }
+            }
+            .addOnFailureListener {
+                it.printStackTrace()
+            }
+    }
+
+    /** 从云端拉取当前用户的预约记录 */
+    private fun listenToAppointments() {
+        val currentUser = auth.currentUser ?: return
+
+        firestore.collection("appointments")
+            .whereEqualTo("userId", currentUser.uid)
+            .orderBy("createdAt")
+            .addSnapshotListener { snapshots, e ->
+                if (e != null) {
+                    e.printStackTrace()
+                    return@addSnapshotListener
+                }
+                if (snapshots != null && !snapshots.isEmpty) {
+                    val list = snapshots.map { doc ->
+                        Appointment(
+                            location = doc.getString("location") ?: "",
+                            cleanerLevel = doc.getString("cleanerLevel") ?: "",
+                            date = doc.getString("date") ?: "",
+                            time = doc.getString("time") ?: "",
+                            price = doc.getDouble("price") ?: 0.0
+                        )
+                    }
+                    _appointments.value = list
+                }
+            }
+    }
+
+    /** 自动计算价格 */
     private fun calculatePrice(location: String, cleanerLevel: String): Double {
         val basePrices = mapOf(
             "Living Room" to 50,
@@ -106,3 +128,4 @@ class AppointmentViewModel(application: Application) : AndroidViewModel(applicat
         return base * multiplier
     }
 }
+

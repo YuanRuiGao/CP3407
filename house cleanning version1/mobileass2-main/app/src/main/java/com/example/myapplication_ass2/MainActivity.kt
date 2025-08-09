@@ -51,10 +51,9 @@ class MainActivity : ComponentActivity() {
                         composable("register") { RegisterScreen(navController) }
                         composable("home") { HomeScreen(navController, settingsViewModel) }
                         composable("settings") { SettingsScreen(navController, settingsViewModel) }
-                        composable("payment") { PaymentScreen(navController) }
+                        composable("history") { AppointmentHistoryScreen(navController) }
                         composable("daily_routine") { AppointmentScreen(navController) }
                         composable("communication") { FamilyCommunicationScreen(navController) }
-                        composable("appointment_log") { AppointmentLogScreen(navController) }
                         composable("service_details") { ServiceDetailsScreen(navController) } // ✅ 新增
                     }
                 }
@@ -83,7 +82,7 @@ fun HomeScreen(navController: NavHostController, settingsViewModel: AppSettingsV
         )
         Column(modifier = Modifier
             .fillMaxSize()
-            .padding(16.dp)
+            .padding(horizontal = 24.dp, vertical = 32.dp)
         ) {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Icon(Icons.Default.Favorite, contentDescription = null,
@@ -109,25 +108,28 @@ fun HomeScreen(navController: NavHostController, settingsViewModel: AppSettingsV
                 modifier = Modifier
                     .align(Alignment.CenterHorizontally)
                     .background(Color.White.copy(alpha = 0.6f), RoundedCornerShape(12.dp))
-                    .padding(8.dp)
+                    .padding(horizontal = 12.dp, vertical = 8.dp)
             )
             Spacer(Modifier.height(24.dp))
 
             val options = listOf(
-                Triple("Service Details", "service_details", Icons.Default.Info), // ✅ 调到最前
-                Triple("Payment Schedule", "payment", Icons.Default.MedicalServices),
+                Triple("Service Details", "service_details", Icons.Default.CleaningServices), // ✅ 调到最前
                 Triple("Cleaner Appointment", "daily_routine", Icons.Default.List),
+                Triple("Appointment History", "history", Icons.Default.History),
                 Triple("Cleaner Communication", "communication", Icons.Default.Phone),
                 Triple("App Settings", "settings", Icons.Default.Settings)
             )
 
-            Column(horizontalAlignment = Alignment.CenterHorizontally) {
+            Column(modifier = Modifier
+                .fillMaxSize()
+                .padding(vertical = 32.dp),
+                horizontalAlignment = Alignment.CenterHorizontally) {
                 options.forEach { (text, route, icon) ->
                     Card(
                         modifier = Modifier
-                            .fillMaxWidth(0.9f)
-                            .padding(vertical = 10.dp)
-                            .height(64.dp),
+                            .fillMaxWidth()
+                            .padding(vertical = 6.dp)
+                            .height(80.dp),
                         shape = RoundedCornerShape(16.dp),
                         colors = CardDefaults.cardColors(containerColor = Color.White.copy(alpha = 0.95f)),
                         elevation = CardDefaults.cardElevation(6.dp),
@@ -135,7 +137,8 @@ fun HomeScreen(navController: NavHostController, settingsViewModel: AppSettingsV
                     ) {
                         Row(
                             verticalAlignment = Alignment.CenterVertically,
-                            modifier = Modifier.padding(20.dp)
+                            horizontalArrangement = Arrangement.spacedBy(16.dp),
+                            modifier = Modifier.fillMaxSize().padding(20.dp)
                         ) {
                             Icon(icon, contentDescription = null, tint = Color(0xFF3A3A3A))
                             Spacer(Modifier.width(20.dp))
@@ -143,7 +146,7 @@ fun HomeScreen(navController: NavHostController, settingsViewModel: AppSettingsV
                         }
                     }
                 }
-                Spacer(Modifier.height(20.dp))
+                Spacer(Modifier.height(28.dp))
 
                 // ✅ Logout button
                 Button(
@@ -156,7 +159,8 @@ fun HomeScreen(navController: NavHostController, settingsViewModel: AppSettingsV
                     colors = ButtonDefaults.buttonColors(containerColor = Color.Red),
                     modifier = Modifier
                         .fillMaxWidth(0.6f)
-                        .height(48.dp)
+                        .height(48.dp),
+                    shape = RoundedCornerShape(16.dp)
                 ) {
                     Text("Log Out", color = Color.White, fontSize = 16.sp)
                 }

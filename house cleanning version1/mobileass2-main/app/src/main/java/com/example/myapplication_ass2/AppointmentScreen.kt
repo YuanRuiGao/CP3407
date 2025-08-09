@@ -12,7 +12,10 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.*
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.Message
 import androidx.compose.material.icons.filled.Add
+import androidx.compose.material.icons.filled.AttachMoney
+import androidx.compose.material.icons.filled.CreditCard
 import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material.icons.filled.Message
 import androidx.compose.runtime.*
@@ -35,6 +38,7 @@ import java.util.*
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
 fun AppointmentScreen(
+
     navController: NavController,
     appointmentViewModel: AppointmentViewModel = viewModel()
 ) {
@@ -100,7 +104,11 @@ fun AppointmentScreen(
             Spacer(Modifier.height(16.dp))
 
             Button(onClick = {
-                appointmentViewModel.addAppointment(selectedLocation!!, selectedLevel!!, date, time)
+                appointmentViewModel.addAppointment(
+                    location = selectedLocation!!,
+                    cleanerLevel = selectedLevel!!,
+                    date = date,
+                    time = time)
 
                 val appointmentDetails = """
                     Location: $selectedLocation
@@ -135,13 +143,15 @@ fun AppointmentScreen(
                             Text("Service: ${appt.cleanerLevel}", fontSize = 14.sp)
                             Text("Date: ${appt.date}", fontSize = 14.sp)
                             Text("Time: ${appt.time}", fontSize = 14.sp)
+                            Text("Price: \$${appt.price}", fontSize = 14.sp)
                         }
                         IconButton(onClick = { navController.navigate("communication") }) {
-                            Icon(Icons.Default.Message, contentDescription = "Contact Cleaner", tint = Color(0xFF4CAF50))
+                            Icon(Icons.AutoMirrored.Filled.Message, contentDescription = "Contact Cleaner", tint = Color(0xFF4CAF50))
                         }
                         IconButton(onClick = { appointmentViewModel.deleteAppointment(appt) }) {
                             Icon(Icons.Default.Delete, contentDescription = "Delete", tint = MaterialTheme.colorScheme.error)
                         }
+
                     }
                 }
             }
@@ -150,16 +160,8 @@ fun AppointmentScreen(
 
             Button(onClick = { navController.navigate("home") }, modifier = Modifier.fillMaxWidth().padding(top = 8.dp), shape = RoundedCornerShape(12.dp)) {
                 Text("Back to Home", fontSize = 16.sp)
-                Button(
-                    onClick = { navController.navigate("appointment_log") },
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .padding(top = 8.dp),
-                    shape = RoundedCornerShape(12.dp)
-                ) {
-                    Text("View Appointment Log", fontSize = 16.sp)
                 }
             }
         }
     }
-}
+
