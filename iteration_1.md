@@ -39,7 +39,7 @@
 | Viewing Available Time Slots              |  ZhiXing Li   | June 18, 2025     |
 | Cleaner Profile and Rating System         |  Yuanuri Gao  | June 27, 2025     |
 
-### Burn Down for iteration-1 (see chapter 4):
+### Burn Down for iteration-1 :
 Update this at least once per week
 
 <img width="865" height="648" alt="image" src="https://github.com/user-attachments/assets/42b4fa2e-4dda-49d5-8b52-e1b6e05a9015" />
