@@ -22,22 +22,32 @@
 | Cleaner Profile and Rating System                 |   High    |  2 days    | Allow the cleaners to submit proof of their work after completion, including photos of the area before and after cleaning, for rating and subsequent evaluation.|
 ## In Progress
 
-| Task                                      | Developer     | Start Date    |
-| ----------------------------------------- | --------------| ------------- |
-| App Interface Prototype                   |  Yuanuri Gao  | June 7, 2025  |
-| User Registration & Login                 |  Hao Zhang    | June 7, 2025  |
-| Booking a Cleaning Service                |  Chunhan Liu  | June 10, 2025 |
-| Viewing Available Time Slots              |  ZhiXing Li   | June 9, 2025  |
-| Cleaner Profile and Rating System         |  Yuanuri Gao  | June 17, 2025 |
+| Task                                      | Developer     | Start Date        |   Week    |  Points   |
+| ----------------------------------------- | --------------| -------------     | --------- | --------- |
+| App Interface Prototype                   |  Yuanuri Gao  | June 4, 2025      |    3      |     3     |
+| User Registration & Login                 |  Hao Zhang    | June 4, 2025      |    3      |     4     |
+| Booking a Cleaning Service                |  Chunhan Liu  | June 4, 2025      |    3      |     4     |
+| Viewing Available Time Slots              |  ZhiXing Li   | June 4, 2025      |    3      |     3     |
+| Cleaner Profile and Rating System         |  Yuanuri Gao  | June 9, 2025      |    4      |     2     |
+| Real-Time Chat with Cleaners              |  Hao Zhang    | June 9, 2025      |    4      |     3     |
+| Booking Status Notification               |  Chunhan Liu  | June 9, 2025      |    4      |     3     |
+| Payment Integration                       |  ZhiXing Li   | June 16, 2025     |    5      |     4     |
+| Rebooking and Service History             |  Yuanuri Gao  | June 16, 2025     |    5      |     2     |
+
 
 ## Completed
-| Task                                      | Developer     | Date Completed    |
-| ----------------------------------------- | --------------| -------------     |
-| App Interface Prototype                   |  Yuanuri Gao  | June 16, 2025     |
-| User Registration & Login                 |  Hao Zhang    | June 17, 2025     |
-| Booking a Cleaning Service                |  Chunhan Liu  | June 16, 2025     |
-| Viewing Available Time Slots              |  ZhiXing Li   | June 18, 2025     |
-| Cleaner Profile and Rating System         |  Yuanuri Gao  | June 27, 2025     |
+| Task                                      | Developer     | Date Completed    |   Week    |  Points   | weekly point  |
+| ----------------------------------------- | --------------| -------------     | -------   |  -------  | ------------- |
+| App Interface Prototype                   |  Yuanuri Gao  | June 8, 2025      |     3     |     3     | ------------- |
+| User Registration & Login                 |  Hao Zhang    | June 8, 2025      |     3     |     4     |       7       |
+| Booking a Cleaning Service                |  Chunhan Liu  | June 15, 2025     |     4     |     4     | ------------- |
+| Viewing Available Time Slots              |  ZhiXing Li   | June 15, 2025     |     4     |     3     | ------------- |
+| Cleaner Profile and Rating System         |  Yuanuri Gao  | June 15, 2025     |     4     |     2     |       9       |
+| Real-Time Chat with Cleaners              |  Hao Zhang    | June 22, 2025     |     5     |     3     | ------------- |
+| Booking Status Notification               |  Chunhan Liu  | June 22, 2025     |     5     |     3     |       6       |
+| Payment Integration                       |  ZhiXing Li   | July 11, 2025     |     6     |     4     | ------------- |
+| Rebooking and Service History             |  Yuanuri Gao  | July 11, 2025     |     6     |     2     |       6       |
+
 
 ### Burn Down for iteration-1 :
 Update this at least once per week

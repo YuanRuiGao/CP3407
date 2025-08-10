@@ -29,25 +29,29 @@
 
 ## In Progress
 
-| Task                                      | Developer      | Start Date    |
-| ----------------------------------------- | -------------- | ------------- |
-|  Real-Time Chat with Cleaners             |  Yuanuri Gao   | July 11, 2025 |
-|  Payment Integration                      |  Chunhan Liu   | July 11, 2025 |
-|  Rebooking and Service History            |  ZhiXing Li    | July 13, 2025 |
-|  Feedback System for App Improvement      |  Hao Zhang     | July 14, 2025 |
-|  Multilingual Support                     |  Yuanuri Gao   | July 14, 2025 |
-|  Cleaner Verification Process             |  Chunhan Liu   | July 16, 2025 |
-|  Promotional Offers and Discount Codes    |  ZhiXing Li    | July 15, 2025 |
-|  Location-based Booking Suggestions       |  Hao Zhang     | July 17, 2025 |
+| Task                                      | Developer         |  Start Date       |   Week    |  Points   |
+| ----------------------------------------- | --------------    | -------------     | -------   |  -------  |
+| Admin Dashboard & Monitoring              |  Yuanuri Gao      | July 14, 2025     |    7      |     3     |
+| Review and Rating Submission              |  Chunhan Liu      | July 14, 2025     |    7      |     2     |
+| Feedback System for App Improvement       |  ZhiXing Li       | July 14, 2025     |    7      |     1     |
+| Push Notification for Booking Reminder    |  Hao Zhang        | July 14, 2025     |    7      |     2     |
+| Emergency Cancellation Option             |  Hao Zhang        | July 21, 2025     |    8      |     3     |
+| Multilingual Support                      |  Yuanuri Gao      | July 21, 2025     |    8      |     1     |
+| Cleaner Verification Process              |  Chunhan Liu      | July 21, 2025     |    8      |     4     |
+| Promotional Offers and Discount Codes     |  ZhiXing Li       | July 28, 2025     |    9      |     2     |
+| Location-based Booking Suggestions        |  Hao Zhang        | July 28, 2025     |    9      |     2     |
 
 ## Completed
-| Task                      | Developer | Date Completed |
-| ------------------------- | :-------: | :------------: |
-|  Real-Time Chat with Cleaners             |  Yuanuri Gao   | July 13, 2025 |
-|  Payment Integration                      |  Chunhan Liu   | July 14, 2025 |
-|  Rebooking and Service History            |  ZhiXing Li    | July 13, 2025 |
-|  Feedback System for App Improvement      |  Hao Zhang     | July 15, 2025 |
-|  Multilingual Support                     |  Yuanuri Gao   | July 25, 2025 |
+| Task                                      | Developer         | Date Completed    |   Week    |  Points   | weekly point  |
+| ----------------------------------------- | --------------    | -------------     | -------   |  -------  | ------------- |
+| Review and Rating Submission              |  Chunhan Liu      | July 20, 2025     |    7      |     2     | ------------- |
+| Feedback System for App Improvement       |  ZhiXing Li       | July 20, 2025     |    7      |     1     | ------------- |
+| Push Notification for Booking Reminder    |  Hao Zhang        | July 20, 2025     |    7      |     2     |       5       |
+| Emergency Cancellation Option             |  Hao Zhang        | July 26, 2025     |    8      |     3     | ------------- |
+| Multilingual Support                      |  Yuanuri Gao      | July 26, 2025     |    8      |     1     | ------------- |
+| Cleaner Verification Process              |  Chunhan Liu      | July 26, 2025     |    8      |     4     |       8       |
+| Promotional Offers and Discount Codes     |  ZhiXing Li       | July 31, 2025     |    9      |     2     | ------------- |
+| Location-based Booking Suggestions        |  Hao Zhang        | July 31, 2025     |    9      |     2     |       4       |
 
 
 
