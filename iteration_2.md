@@ -44,13 +44,13 @@
 ## Completed
 | Task                                      | Developer         | Date Completed    |   Week    |  Points   | weekly point  |
 | ----------------------------------------- | --------------    | -------------     | -------   |  -------  | ------------- |
-| Review and Rating Submission              |  Chunhan Liu      | July 20, 2025     |    7      |     2     | ------------- |
-| Feedback System for App Improvement       |  ZhiXing Li       | July 20, 2025     |    7      |     1     | ------------- |
+| Review and Rating Submission              |  Chunhan Liu      | July 20, 2025     |    7      |     2     |               |
+| Feedback System for App Improvement       |  ZhiXing Li       | July 20, 2025     |    7      |     1     |               |
 | Push Notification for Booking Reminder    |  Hao Zhang        | July 20, 2025     |    7      |     2     |       5       |
-| Emergency Cancellation Option             |  Hao Zhang        | July 26, 2025     |    8      |     3     | ------------- |
-| Multilingual Support                      |  Yuanuri Gao      | July 26, 2025     |    8      |     1     | ------------- |
+| Emergency Cancellation Option             |  Hao Zhang        | July 26, 2025     |    8      |     3     |               |
+| Multilingual Support                      |  Yuanuri Gao      | July 26, 2025     |    8      |     1     |               |
 | Cleaner Verification Process              |  Chunhan Liu      | July 26, 2025     |    8      |     4     |       8       |
-| Promotional Offers and Discount Codes     |  ZhiXing Li       | July 31, 2025     |    9      |     2     | ------------- |
+| Promotional Offers and Discount Codes     |  ZhiXing Li       | July 31, 2025     |    9      |     2     |               |
 | Location-based Booking Suggestions        |  Hao Zhang        | July 31, 2025     |    9      |     2     |       4       |
 
 

@@ -38,14 +38,14 @@
 ## Completed
 | Task                                      | Developer     | Date Completed    |   Week    |  Points   | weekly point  |
 | ----------------------------------------- | --------------| -------------     | -------   |  -------  | ------------- |
-| App Interface Prototype                   |  Yuanuri Gao  | June 8, 2025      |     3     |     3     | ------------- |
+| App Interface Prototype                   |  Yuanuri Gao  | June 8, 2025      |     3     |     3     |               |
 | User Registration & Login                 |  Hao Zhang    | June 8, 2025      |     3     |     4     |       7       |
-| Booking a Cleaning Service                |  Chunhan Liu  | June 15, 2025     |     4     |     4     | ------------- |
-| Viewing Available Time Slots              |  ZhiXing Li   | June 15, 2025     |     4     |     3     | ------------- |
+| Booking a Cleaning Service                |  Chunhan Liu  | June 15, 2025     |     4     |     4     |               |
+| Viewing Available Time Slots              |  ZhiXing Li   | June 15, 2025     |     4     |     3     |               |
 | Cleaner Profile and Rating System         |  Yuanuri Gao  | June 15, 2025     |     4     |     2     |       9       |
-| Real-Time Chat with Cleaners              |  Hao Zhang    | June 22, 2025     |     5     |     3     | ------------- |
+| Real-Time Chat with Cleaners              |  Hao Zhang    | June 22, 2025     |     5     |     3     |               |
 | Booking Status Notification               |  Chunhan Liu  | June 22, 2025     |     5     |     3     |       6       |
-| Payment Integration                       |  ZhiXing Li   | July 11, 2025     |     6     |     4     | ------------- |
+| Payment Integration                       |  ZhiXing Li   | July 11, 2025     |     6     |     4     |               |
 | Rebooking and Service History             |  Yuanuri Gao  | July 11, 2025     |     6     |     2     |       6       |
 
 
