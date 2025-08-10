@@ -20,6 +20,14 @@
 | Booking a Cleaning Service                        |   High    |  4 days    | Enable employers who use the app to officially place orders, and allow the clear worker accounts to receive the information.|
 | Viewing Available Time Slots                      |   High    |  3 days    | Further improve the interface and functions for placing orders, so that both parties can agree on a mutually acceptable time.|
 | Cleaner Profile and Rating System                 |   High    |  2 days    | Allow the cleaners to submit proof of their work after completion, including photos of the area before and after cleaning, for rating and subsequent evaluation.|
+<<<<<<< Updated upstream
+=======
+| Real-Time Chat with Cleaners                      |   High    |  3 days    | As a user,I want to send messages to the cleaner I booked,so that I can communicate any special cleaning requests or instructions.|
+| Booking Status Notification                       |   High    |  2 days    | As a user,I want to receive real-time notifications about my booking (e.g. confirmed, rescheduled, or canceled),so that I stay informed without needing to check manually.|  
+| Payment Integration                               |   High    |  3 days    | As a customer,I want to make secure online payments for the cleaning service,so that I do not need to handle cash during the service.|     
+| Rebooking and Service History                     |   Medium  | 2 days     | As a returning user,I want to view my previous bookings and rebook a past cleaner,so that I can save time and maintain consistency.|   
+
+>>>>>>> Stashed changes
 ## In Progress
 
 | Task                                      | Developer     | Start Date        |   Week    |  Points   |
