@@ -17,15 +17,15 @@
 ## Backlog – Tasks
 | Title                                         | Priority  |    Est.Days    | Describes                            |
 | -----------------------------------------     | ------    |   ----------   | ------------------------------------ |
-| Real-Time Chat with Cleaners                  | High      |     4 days     |  Add the function to our app that enables employers and cleaners to have real-time chatting. |
-| Payment Integration                           | Medium    |     3 days     |  Allow employers to make payments in multiple ways |
-| Rebooking and Service History                 | Medium    |     3 days     |  Allow the employer to make modifications to the orders and issue reminders to the cleaners |
-| Feedback System for App Improvement           | Medium    |     1 days     |  After the order is completed, a questionnaire survey interface will be available for users to provide suggestions for improving the app.|
-| Multilingual Support                          | High      |     1 days     |  Support multiple language interfaces, and also attempt to incorporate translation functionality in the chat feature.|
-| Cleaner Verification Process                  | High      |     2 days     |  Allow cleaners to upload photos before and after the completion of their work to serve as proof of the job done.|
-| Promotional Offers and Discount Codes         | High      |     2 days     |  On the main interface, there will be entry points and image promotions for the current activities and promotional events.|
-| Location-based Booking Suggestions            | Medium    |     1 days     |  Allow the app to perform location-based positioning, automatically switch to the current region, and display whether there are any cleaners using this app in the local area.|
-
+| Admin Dashboard & Monitoring                  |   Medium  |     3 days     | As an app administrator, I want to view and manage user activities, bookings, and cleaner schedules, so that I can ensure smooth app operation and handle issues in time.| 
+| Review and Rating Submission                  |   Medium  |     1 days     | As a customer, I want to leave a review and rating after each cleaning service, so that other users can benefit from my experience.| 
+| Feedback System for App Improvement           |   low     |     1 days     | As a user, I want to send feedback about the app performance or ideas for improvement, so that the development team can enhance the user experience.| 
+| Push Notification for Booking Reminder        |   Medium  |     2 days     | As a user, I want to receive push reminders before my scheduled cleaning, so that I don't forget the appointment.| 
+| Emergency Cancellation Option                 |   Medium  |     2 days     | As a user, I want to cancel my booking in case of emergencies, so that I don't get charged unfairly and can reschedule later.| 
+| Multilingual Support                          |   Low     |     3 days     | As a non-English speaker, I want the app to support multiple languages, so that I can understand and use the app more easily.| 
+| Cleaner Verification Process                  |   High    |     3 days     | As an admin, I want to verify each cleaner's identity and background, so that users feel safe when allowing them into their homes.      | 
+| Promotional Offers and Discount Codes         |   Medium  |     2 days     | As a user, I want to apply discount codes or see promotions in the app, so that I can save money when booking cleaning services.| 
+| Location-based Booking Suggestions            |   Medium  |     2 days     | As a user, I want the app to suggest cleaners based on my location, so that I can reduce wait time and travel costs.| 
 
 ## In Progress
 
