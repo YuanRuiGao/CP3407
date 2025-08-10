@@ -53,6 +53,11 @@
 | Promotional Offers and Discount Codes     |  ZhiXing Li       | July 31, 2025     |    9      |     2     |               |
 | Location-based Booking Suggestions        |  Hao Zhang        | July 31, 2025     |    9      |     2     |       4       |
 
+### Burn Down for iteration-1 :
+Update this at least once per week
+
+![dff10b48136573dbab602aac2f85bbfd](https://github.com/user-attachments/assets/edc90155-f287-4e14-a1da-e630371f1200)
+![87c65bb5b6e781d8f8f7e6234fc7e0c5](https://github.com/user-attachments/assets/76d37a66-ebd6-4a60-9cba-d9204b45f941)
 
 
 
